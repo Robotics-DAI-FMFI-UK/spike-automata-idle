@@ -1,0 +1,257 @@
+﻿43 ID alebo poradové číslo? - poradie zapisu
+id of variable first occurance on line 52 and 59, but not defined to iste co 2
+events ako super prechody? - ano
+43 čo ak prázdna podmienka? - default bude true
+35 init a finite sú teda aktívne? ano
+
+písať čítanie a ľahkú kontrolu keby c# sa pomýlil
+vytvaranie a ukladanie smerníkov
+
+-------------------------Follow
+1
+1
+4
+base
+113
+
+ColorSensor
+15
+
+DistanceSensor
+22
+
+ColorCount
+7
+0
+Follow
+5
+1
+1
+1
+0
+Init
+0
+-1
+-1
+1
+4
+2 true
+1
+Stop
+0
+-1
+-1
+0
+Forward
+0
+-1
+-1
+1
+4
+5 120 5 108 3 2 1 290
+1
+23 3 0
+Reverse
+0
+-1
+-1
+1
+4
+5 121 5 108 3 2 1 150
+1
+23 3 0
+Idle
+0
+-1
+-1
+2
+2
+5 121 5 108 3 2 1 300
+1
+20 3 0 1 200
+3
+5 120 5 108 3 2 1 140
+1
+20 3 0 1 -200
+
+\-------------------------------------------- FollowWith Event
+1
+1
+4
+base
+113
+
+ColorSensor
+15
+
+DistanceSensor
+22
+
+ColorCount
+7
+0
+Follow
+5
+1
+1
+1
+0
+Init
+0
+-1
+-1
+1
+4
+2 true
+1
+Stop
+0
+-1
+-1
+0
+Forward
+0
+-1
+-1
+1
+4
+5 120 5 108 3 2 1 290
+2
+23 3 0
+13 3 3 5 123 3 3 1 1
+Reverse
+0
+-1
+-1
+1
+4
+5 121 5 108 3 2 1 150
+1
+23 3 0
+Idle
+0
+-1
+-1
+2
+2
+5 121 5 108 3 2 1 300
+1
+20 3 0 1 200
+3
+5 120 5 108 3 2 1 140
+1
+20 3 0 1 -200
+1
+5 121 3 3 1 5
+1
+23 3 0
+
+\-------------------------------------------- FollowCounting
+2
+2
+4
+base
+113
+
+ColorSensor
+15
+
+DistanceSensor
+22
+
+ColorCount
+7
+0
+Follow
+5
+1
+1
+1
+0
+Init
+0
+-1
+-1
+1
+4
+2 true
+1
+Stop
+0
+-1
+-1
+0
+Forward
+0
+-1
+-1
+1
+4
+5 120 5 108 3 2 1 290
+1
+23 3 0
+Reverse
+0
+-1
+-1
+1
+4
+5 121 5 108 3 2 1 150
+1
+23 3 0
+Idle
+0
+-1
+-1
+2
+2
+5 121 5 108 3 2 1 300
+1
+20 3 0 1 200
+3
+5 120 5 108 3 2 1 140
+1
+20 3 0 1 -200
+1
+5 121 3 3 1 5
+1
+23 3 0
+Counting
+4
+1
+1
+0
+0
+Init
+0
+-1
+-1
+1
+2
+2 true
+1
+counted
+0
+-1
+-1
+0
+scanning
+0
+-1
+-1
+2
+3
+5 119 5 110 3 1 1 5
+1
+13 3 3 5 123 3 3 1 1
+1
+5 121 3 3 1 4
+1
+red
+0
+-1
+-1
+1
+2
+5 139 5 119 5 110 3 1 1 5
+1

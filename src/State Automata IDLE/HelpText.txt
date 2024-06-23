@@ -1,0 +1,22 @@
+﻿Application Interaction Guide:
+
+Font Size Adjustment:
+    Press + to increase font size
+    Press - to decrease font size
+
+State Creation:
+    Press b to create a blank state
+    Press f to create a finite state
+    Press s to create a state with sub automata
+    Press a to create an active state
+
+State and Transition Editing:
+    Press d to delete a state or a point in a transition under the cursor
+    Press r to rename a state or change the label of a transition under the cursor
+    Press c to create a point in a transition under the cursor. The point will moving with the cursor until you release key c
+
+Moving States and Transitions:
+    Hold m and move the mouse to move the state or transition under the cursor
+
+Creating Transitions:
+    Hold t and move the mouse from one state to another to create a transition. Release the key over the destination state.
